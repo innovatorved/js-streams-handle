@@ -15,7 +15,7 @@ To run the application, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory using the command line.
 3. Run `yarn` to install the dependencies.
-4. Run `npm start` to start the application.
+4. Run `yarn start` to start the application.
 
 The application will read data from the file located in the `data` directory and display the calculated metrics in the console.
 
