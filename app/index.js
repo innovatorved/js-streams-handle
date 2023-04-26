@@ -10,13 +10,7 @@ async function consumeAPI(signal) {
             new TextDecoderStream()
         )
         .pipeThrough(parseNDJSON())
-    // .pipeTo(
-    //     new WritableStream({
-    //         write(chunk){
-    //             console.log('chunck' , chunk)
-    //         }
-    //     })
-    // )
+
     return reader;
 }
 
