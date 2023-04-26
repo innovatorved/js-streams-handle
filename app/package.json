@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "npx browser-sync -w ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.1"
+  }
+}
